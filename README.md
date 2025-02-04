@@ -33,7 +33,7 @@ python main.py path_to_input_video.mp4 --output_video output_videos/output_resul
 
 - `path_to_input_video.mp4`: Replace this with the path to the video you want to analyze.
  
-- `--output_video output_videos/output_result.avi`: This flag specifies where the processed video (with annotations and visualizations) will be saved.
+- `--output_video output_videos/output_video.avi`: This flag specifies where the processed video (with annotations and visualizations) will be saved.
 
 - If you prefer to use a different set of intermediate files or run the process from scratch, you can specify a custom path using the `--stub_path` flag or disable stubs entirely.
 
