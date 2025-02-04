@@ -44,7 +44,7 @@ python main.py path_to_input_video.mp4 --output_video output_videos/output_resul
 </p>
 <br><br>
 
-## Requirements 📋
+## 📋 Requirements 
 
 To run the project, you'll need the following dependencies:
 
