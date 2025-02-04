@@ -5,3 +5,5 @@
 models/final_keypoints_model.pth
 models/ball_best.pt
 models/final_keypoints_model.pth
+models/*.pth
+models/*.pt
