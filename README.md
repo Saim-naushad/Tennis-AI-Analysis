@@ -37,7 +37,7 @@ python main.py path_to_input_video.mp4 --output_video output_videos/output_resul
 
 - If you prefer to use a different set of intermediate files or run the process from scratch, you can specify a custom path using the `--stub_path` flag or disable stubs entirely.
 
-  ## 👀 Here's a glimpse...
+## 👀 Here's a glimpse...
   <br><br>
 <p align="center">
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXNjanhxNGl5d2tuaTM0ZjFmanIwbmh4dDA5dHZoZmsxNmdxbHJyaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9yl0AGKWrQR6cPsEQK/giphy.gif"   width="700px">
@@ -52,7 +52,6 @@ To run the project, you'll need the following dependencies:
 - PyTorch (with CUDA support if using GPU)
 - OpenCV
 - NumPy
-- Pillow
 - Torchvision
 - Roboflow
 - Ultralytics (for YOLOv5 training)
