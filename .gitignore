@@ -1,4 +1,7 @@
 /.DS_Store
 /.vscode
 /analysis
-/yolov8x.pt
+/yolov8x.ptmodels/ball_best.pt
+models/final_keypoints_model.pth
+models/ball_best.pt
+models/final_keypoints_model.pth
