@@ -2,7 +2,7 @@
 
 This repository implements a deep learning-based solution for analyzing tennis matches through computer vision. The focus is on detecting tennis court keypoints, tracking players, and detecting ball movement. The results are visualized on a miniaturized court for enhanced analysis.
 
-## ✨Features
+## ✨ Features
 
 - **Court Keypoint Detection**: Detects and maps 14 key points on the tennis court.
 - **Player Tracking**: Tracks player movements across frames.
@@ -37,9 +37,45 @@ python main.py path_to_input_video.mp4 --output_video output_videos/output_resul
 
 - If you prefer to use a different set of intermediate files or run the process from scratch, you can specify a custom path using the `--stub_path` flag or disable stubs entirely.
 
-  ## Here's a glimpse..
+  ## 👀 Here's a glimpse...
+  <br><br>
+<p align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXNjanhxNGl5d2tuaTM0ZjFmanIwbmh4dDA5dHZoZmsxNmdxbHJyaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9yl0AGKWrQR6cPsEQK/giphy.gif"   width="700px">
+</p>
+<br><br>
 
-  ![Tennis Analysis Preview](https://imgur.com/a/okpvkck)
+## Requirements 📋
+
+To run the project, you'll need the following dependencies:
+
+- Python 3.8
+- PyTorch (with CUDA support if using GPU)
+- OpenCV
+- NumPy
+- Pillow
+- Torchvision
+- Roboflow
+- Ultralytics (for YOLOv5 training)
+- scikit-learn (for evaluation and preprocessing)
+- Matplotlib (for visualizations)
+
+You can install these dependencies using `pip`:
+<pre>
+<code>
+pip install -r requirements.txt
+</code>
+</pre>
+
+## 🌱 Future Work 
+
+1. **Player Detection Enhancement**  
+   Improve the robustness of player detection, particularly in occluded or crowded scenes, by exploring advanced techniques such as pose estimation or multi-task learning.
+
+2. **Real-Time Performance Optimization**  
+   Focus on improving the system’s efficiency for real-time analysis on resource-constrained devices, using approaches like model quantization and edge computing.
+
+3. **Event Detection and Analysis**  
+   Implement automated detection of key match events (e.g., aces, faults) to provide actionable insights on player performance during the game.
 
   
 
